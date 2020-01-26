@@ -48,7 +48,7 @@ h6 {
 }
 .header .page-description {
   margin: 30px auto;
-  max-width: 600px;
+  max-width: 90%;
   font-size: 18px;
   line-height: 2em;
   color: #FFF;

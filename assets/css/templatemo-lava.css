@@ -816,7 +816,7 @@ about
 */
 
 #about {
-  padding: 100px 0px;
+  padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 9;
 }
@@ -1020,7 +1020,7 @@ footer .footer-content {
 .contact-form {
   position: relative;
   z-index: 10;
-  padding: 45px;
+  padding: 5px;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
