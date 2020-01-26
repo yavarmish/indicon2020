@@ -9,14 +9,7 @@
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
-    <title>Lava Landing Page HTML Template</title>
-<!--
-
-Lava Landing Page
-
-https://templatemo.com/tm-540-lava-landing-page
-
--->
+    <title>Indicon 2020</title>
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -49,8 +42,8 @@ https://templatemo.com/tm-540-lava-landing-page
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            Lava
+                        <a href="index.html" class="logo" style="color: rgb(255, 255, 255);">
+                            INDICON 2020
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -91,15 +84,49 @@ https://templatemo.com/tm-540-lava-landing-page
                 <div class="row">
                     <div class="left-text col-lg-6 col-md-12 col-sm-12 col-xs-12"
                         data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                        <h1>Simple App that we <em>CREATE</em></h1>
-                        <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>.
+                        
+                        <h1 style="color: azure;">Technology Intervention to Build Future Ready <em style="color: #007bff;">SOCIETY</em> </h1>
+                        
+                        <div class="clock"> 
+                            <ul>
+                              <li><span id="days"></span>Days</li>
+                              <li><span id="hours"></span>Hours</li>
+                              <li><span id="minutes"></span>Minutes</li>
+                              <li><span id="seconds"></span>Seconds</li>
+                            </ul>
+                          </div>
+                        <!-- <p>Lava <a href="#">HTML landing page</a> template is provided by <a href="#">TemplateMo</a>.
                            You can modify and use it for your commercial websites for free of charge. This template is last updated on 29 Oct 2019.</p> 
-                        <a href="#about" class="main-button-slider">KNOW US BETTER</a>
+                        <a href="#about" class="main-button-slider">KNOW US BETTER</a> -->
                     </div>
+                   
                 </div>
+                
             </div>
+            
         </div>
         <!-- ***** Header Text End ***** -->
+        
+          <script>
+          const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
+
+let countDown = new Date('Dec 13, 2020 00:00:00').getTime(),
+    x = setInterval(function() {
+
+      let now = new Date().getTime(),
+          distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+      
+     
+    }, second)
+          </script>
     </div>
     <!-- ***** Welcome Area End ***** -->
 
@@ -377,6 +404,23 @@ https://templatemo.com/tm-540-lava-landing-page
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+
+    <script src="assets/js/three.r95.min.js"></script>
+    <script src="assets/js/vanta.globe.min.js"></script>
+    <script>
+        VANTA.GLOBE({
+        el: "#welcome",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0x0,
+        color: 0x7aff,
+        color2: 0xffffff
+        })
+    </script>
 
 </body>
 </html>
