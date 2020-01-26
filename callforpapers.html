@@ -24,9 +24,9 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
 
-    <link rel="stylesheet" href="assets/css/templatemo-lava.css" />
+    <link rel="stylesheet" href="assets/css/papers.css" />
 
-    <link rel="stylesheet" href="assets/css/owl-carousel.css" />
+    <!-- <link rel="stylesheet" href="assets/css/owl-carousel.css" /> -->
   </head>
 
   <body>
@@ -58,18 +58,16 @@
               <!-- ***** Menu Start ***** -->
               <ul class="nav">
                 <li class="scroll-to-section">
-                  <a href="#welcome" class="menu-item">Home</a>
+                  <!-- menu-item -->
+                  <a href="index.html" class=" he">Home</a>
                 </li>
-                <li class="scroll-to-section">
-                  <a href="#about" class="menu-item">About</a>
-                </li>
+                <!-- <li class="scroll-to-section">
+                                <a href="#about" class="menu-item">About</a>
+                            </li> -->
                 <!-- class="scroll-to-section" -->
                 <li>
                   <!-- class="menu-item" -->
-                <!-- target="_blank" -->
-                  <a  href="callforpapers.html"
-                    >Call for papers</a
-                  >
+                  <a class="active" href="#">Call for papers</a>
                 </li>
                 <li class="submenu">
                   <a href="javascript:;">Drop Down</a>
@@ -118,115 +116,92 @@
           </div>
         </div>
       </div>
-      <!-- ***** Header Text End ***** -->
-
-      <script>
-        const second = 1000,
-          minute = second * 60,
-          hour = minute * 60,
-          day = hour * 24;
-
-        let countDown = new Date("Dec 13, 2020 00:00:00").getTime(),
-          x = setInterval(function() {
-            let now = new Date().getTime(),
-              distance = countDown - now;
-
-            (document.getElementById("days").innerText = Math.floor(
-              distance / day
-            )),
-              (document.getElementById("hours").innerText = Math.floor(
-                (distance % day) / hour
-              )),
-              (document.getElementById("minutes").innerText = Math.floor(
-                (distance % hour) / minute
-              )),
-              (document.getElementById("seconds").innerText = Math.floor(
-                (distance % minute) / second
-              ));
-          }, second);
-      </script>
     </div>
-    <!-- ***** Welcome Area End ***** -->
-    <div class="timer">
-      <div style="width: 100%;">
-        <div class="clock" style="color:black;">
-          <ul>
-            <li><span id="days"></span>Days</li>
-            <li><span id="hours"></span>Hours</li>
-            <li><span id="minutes"></span>Minutes</li>
-            <li><span id="seconds"></span>Seconds</li>
-          </ul>
-        </div>
-      </div>
+    <!-- ***** Header Text End ***** -->
+    <div class="call">
+      <h1>Call for Papers</h1>
+      <p>
+        The Conference aims to provide an active platform for research
+        scientists, engineers, and practitioners throughout the world to present
+        their latest research findings, ideas, and applications in the fields of
+        interest which fall under the scope of IEEE. Prospective authors are
+        invited to submit original research papers (not being considered for
+        publication elsewhere) in standard IEEE conference template describing
+        new theoretical and/or experimental research results in the following
+        tracks (but are not limited to):
+      </p>
     </div>
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-            data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
-          >
-            <div class="features-item">
-              <div class="features-icon">
-                <h2>01</h2>
-                <img src="assets/images/features-icon-1.png" alt="" />
-                <h4>Indicon</h4>
-                <p>
-                  Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam,
-                  nec consectetur diam.
+    <div class="container tracks">
+      <h1>Tracks</h1>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="main-timeline5">
+            <div class="timeline">
+              <div class="timeline-icon"><span class="year">1</span></div>
+              <div class="timeline-content">
+                <h3 class="title">Computer and Information Technology</h3>
+                <p class="description">
+                  Artificial & Augmented intelligence and their applications,
+                  Biometrics & RFID, Computational Intelligence, Deep Learning,
+                  Big Data Analysis, IOT, 5G Networks and Cloud Computing, Data
+                  and Business analytics, Computational Social Science & Social
+                  Networks
                 </p>
-                <a href="#testimonials" class="main-button">
-                  Read More
-                </a>
               </div>
             </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-            data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s"
-          >
-            <div class="features-item">
-              <div class="features-icon">
-                <h2>02</h2>
-                <img src="assets/images/features-icon-2.png" alt="" />
-                <h4>IEEE</h4>
-                <p>
-                  Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam,
-                  nec consectetur diam.
+            <div class="timeline two">
+              <div class="timeline-icon"><span class="year">2</span></div>
+              <div class="timeline-content">
+                <h3 class="title">Electronics and Nanotechnology</h3>
+                <p class="description">
+                  Electron Devices & Solid-State Circuits, Circuits and Systems,
+                  Consumer Electronics, Micro and Nanoelectronics, Photonics
                 </p>
-                <a href="#testimonials" class="main-button">
-                  Discover More
-                </a>
               </div>
             </div>
-          </div>
-          <div
-            class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
-            data-scroll-reveal="enter right move 30px over 0.6s after 0.4s"
-          >
-            <div class="features-item">
-              <div class="features-icon">
-                <h2>03</h2>
-                <img src="assets/images/features-icon-3.png" alt="" />
-                <h4>NSUT</h4>
-                <p>
-                  Curabitur pulvinar vel odio sed sagittis. Nam maximus ex diam,
-                  nec consectetur diam.
+            <div class="timeline three">
+              <div class="timeline-icon"><span class="year">3</span></div>
+              <div class="timeline-content">
+                <h3 class="title">Power and Energy</h3>
+                <p class="description">
+                  Conventional, Renewable and Green Energy, Energy Storage
+                  Devices, Charging infrastructure, onboard, off-board chargers,
+                  Industrial Electronics and applications, Smart Grid and Micro
+                  Grid, Intelligent Transportation Systems, Modelling &
+                  Simulation of Machines, Power Systems, High Voltage and Power
+                  Electronics, Dielectrics and Electrical Insulation, Electric
+                  Vehicle
                 </p>
-                <a href="#testimonials" class="main-button">
-                  More Detail
-                </a>
+              </div>
+            </div>
+            <div class="timeline four">
+              <div class="timeline-icon"><span class="year">4</span></div>
+              <div class="timeline-content">
+                <h3 class="title">Communications and Signal Processing</h3>
+                <p class="description">
+                  Communication, Signal, Image and Video Processing, RF,
+                  Microwave, Millimetre wave: Theory and Techniques,
+                  Electromagnetics, Antennas and Propagation, Ultrasonic,
+                  Ferroelectrics, and Frequency Control, Wireless technologies,
+                  Broadcasting
+                </p>
+              </div>
+            </div>
+            <div class="timeline five">
+              <div class="timeline-icon"><span class="year">5</span></div>
+              <div class="timeline-content">
+                <h3 class="title">Control and Instrumentation</h3>
+                <p class="description">
+                  Control Systems, Instrumentation and Measurement, Biomedical,
+                  Sensors and Sensing Systems, Robotics and Automation
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <!-- <div class="left-image-decor"></div> -->
+    </div>
+    <hr />
 
     <!-- ***** Features Big Item Start ***** -->
     <!-- <section class="section" id="promotion">
