@@ -54,11 +54,11 @@ h6 {
   color: #FFF;
 }*/
 .header .scroll-button {
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   padding: 15px 20px 15px 20px;
   display: inline-block;
-  background: #3093A2;
+  background: #3093a2;
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -74,7 +74,7 @@ h6 {
 }
 .header .scroll-button:active {
   background: #194c53;
-} 
+}
 .main-content {
   margin: 0px auto;
   position: relative;
@@ -95,7 +95,7 @@ h6 {
   clear: both;
 }
 .footer {
-  background: #112C30;
+  background: #112c30;
   padding: 150px 0px 300px 0px;
   position: relative;
   z-index: 1;
@@ -129,13 +129,13 @@ h6 {
   left: 50%;
 }
 .stem-wrapper.color-yellow .stem-background {
-  background: #E9E566;
+  background: #e9e566;
 }
 .stem-wrapper.color-green .stem-background {
-  background: #35C189;
+  background: #35c189;
 }
 .stem-wrapper.color-white .stem-background {
-  background: #FFF;
+  background: #fff;
 }
 .stem-wrapper .stem,
 .stem-wrapper .stem-background {
@@ -145,12 +145,12 @@ h6 {
   width: 60px;
 }
 .stem-wrapper .stem {
-  background:transparent;
+  background: #1e4f56;
   height: 100%;
 }
 
 .stem-wrapper .stem-background {
-  background: transparent;
+  background: #39acbd;
   height: 50%;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
@@ -162,7 +162,9 @@ h6 {
   width: 60px;
   height: 60px;
   margin: 0px auto;
-  background: transparent url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/stem-mask.png) repeat-y top center;
+  background: transparent
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/stem-mask.png)
+    repeat-y top center;
 }
 .single-stem-icon.scroll-to-top {
   cursor: pointer;
@@ -253,7 +255,9 @@ h6 {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  background: transparent url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/stem-mask.png) repeat-y top center;
+  background: transparent
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/stem-mask.png)
+    repeat-y top center;
 }
 .post-wrapper .post .post-content {
   opacity: 0.3;
