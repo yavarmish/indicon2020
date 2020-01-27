@@ -4,7 +4,7 @@
 body {
   height: 100%;
 } */
-body{
+body {
   background-color: #112c30;
   color: #ddd;
 }
@@ -480,11 +480,38 @@ body{
 } */
 
 /* Add a black background color to the top navigation */
+nav {
+  /* float: right; */
+  margin-left: 500px !important;
+  overflow-x: hidden !important;
+}
+@media screen and (max-width: 1024px) {
+  nav {
+    margin-left: 220px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  nav {
+    margin-left: 80px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  nav {
+    margin-left: 30px !important;
+  }
+}
 .topnav {
   /* background-color: #333; */
   overflow: hidden;
+  background-color: transparent;
+  /* width: 100vw; */
+  /* width: 100% !important; */
+  /* float: right; */
+  /* margin-right: 0; */
 }
-
+.hoe {
+  /* margin-left: 260px; */
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -494,6 +521,9 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  /* padding-left: 35px;
+  padding-right: 35px; */
+  /* margin-left: 90px; */
 }
 
 /* Add an active class to highlight the current page */
@@ -531,7 +561,7 @@ body{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -546,7 +576,8 @@ body{
 }
 
 /* Add a dark background on topnav links and the dropdown button on hover */
-.topnav a:hover, .dropdown:hover .dropbtn {
+.topnav a:hover,
+.dropdown:hover .dropbtn {
   background-color: #555;
   color: white;
 }
@@ -564,7 +595,8 @@ body{
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child),
+  .dropdown .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -575,7 +607,9 @@ body{
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -586,8 +620,12 @@ body{
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown {
+    float: none;
+  }
+  .topnav.responsive .dropdown-content {
+    position: relative;
+  }
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
