@@ -1194,10 +1194,10 @@ footer .sub-footer p {
   height: 600px;
 }
 .bt2 {
-  transform: translateY(37px);
+  transform: translateY(41px);
 }
 .bt3 {
-  transform: translateY(28px);
+  transform: translateY(12px);
 }
 
 /* 
@@ -1250,13 +1250,15 @@ footer .sub-footer p {
 
 .timeline__box:before {
   content: "";
-  width: 100%;
-  height: 2px;
+  /* width: 20%; */
+  width: 120px;
+
+  height: 4px;
   background-color: var(--uiTimelineMainColor);
 
   position: absolute;
   left: 0;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .timeline__date {
@@ -1286,7 +1288,7 @@ footer .sub-footer p {
 
 .timeline__post {
   margin-left: 40px;
-  padding: 3rem 4rem;
+  padding: 1.5rem 2rem;
   border-radius: 2px;
   border-left: 3px solid var(--uiTimelineMainColor);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);

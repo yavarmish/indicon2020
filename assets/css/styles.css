@@ -4,9 +4,13 @@
 body {
   height: 100%;
 } */
+html {
+  overflow-x: hidden;
+}
 body {
   background-color: #112c30;
   color: #ddd;
+  overflow-x: hidden;
 }
 .time {
   background: #112c30;
@@ -480,26 +484,7 @@ body {
 } */
 
 /* Add a black background color to the top navigation */
-nav {
-  /* float: right; */
-  margin-left: 500px !important;
-  overflow-x: hidden !important;
-}
-@media screen and (max-width: 1024px) {
-  nav {
-    margin-left: 220px !important;
-  }
-}
-@media screen and (max-width: 900px) {
-  nav {
-    margin-left: 80px !important;
-  }
-}
-@media screen and (max-width: 800px) {
-  nav {
-    margin-left: 30px !important;
-  }
-}
+
 .topnav {
   /* background-color: #333; */
   overflow: hidden;
@@ -509,9 +494,7 @@ nav {
   /* float: right; */
   /* margin-right: 0; */
 }
-.hoe {
-  /* margin-left: 260px; */
-}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
