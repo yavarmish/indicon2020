@@ -753,7 +753,12 @@ welcome
   margin-bottom: 3px;
   color: #191a20;
 }
-
+@media screen and (max-width : 600px){
+  .welcome-area .header-text h1{
+    line-height: 60px;
+    font-size: 12vw;
+  }
+}
 .welcome-area .header-text h1 em {
   font-style: normal;
   /* color: #fba70b; */
