@@ -103,9 +103,12 @@ body {
 .main-content .post-wrapper:after {
   clear: both;
 }
+.footer a:hover{
+  background: #3d9dac;
+}
 .footer {
   background: #112c30;
-  padding: 10px 0px 300px 0px;
+  padding: 50px 0px 300px 0px;
   position: relative;
   display: flex;
   z-index: 1;
