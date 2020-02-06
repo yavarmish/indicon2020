@@ -103,7 +103,7 @@ body {
 .main-content .post-wrapper:after {
   clear: both;
 }
-.footer a:hover{
+.footer a:hover {
   background: #3d9dac;
 }
 .footer {
@@ -750,3 +750,5 @@ th {
     /* width: 100%; */
   }
 }
+
+
