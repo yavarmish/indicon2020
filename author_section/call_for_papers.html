@@ -20,12 +20,12 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="assets/css/bootstrap.min.css"
+      href="../assets/css/bootstrap.min.css"
     />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css" />
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
 
     <!-- <link rel="stylesheet" href="assets/css/templatemo-lava.css" /> -->
     <!-- <link rel="stylesheet" href="assets/css/owl-carousel.css" /> -->
@@ -63,14 +63,14 @@
                <!-- <h1 class="page-title" style="transform: translateY(-20px);">Tracks </h1> -->
             <nav>
                 <div class="topnav" id="myTopnav">
-                    <a href="#home" class="active">HOME</a>
+                    <a href="../index.html" class="active">HOME</a>
                     <a href="#news">ABOUT</a>
                     <a href="#contact">TIMELINE</a>
                     <div class="dropdown">
                       
                         <button 
                       
-                      class="dropbtn dropdown">AUTHOR SECTION
+                      class="dropbtn ">AUTHOR SECTION
                         <i class="fa fa-caret-down"></i>
                       </button>
                       <div class="dropdown-content">
@@ -219,10 +219,12 @@
       
   <footer class="footer section">
       <div class="section-inner">
-          <div style="justify-content: center;align-items: center;">
+          <div style="justify-content: center;align-items: center;margin-top: 60px;">
               <a style="text-decoration: none;
               color: white;
               font-size: 40px;
+              border: 1px solid whitesmoke;
+              padding: 40px;
               "target="_blank"href="https://edas.info/N27120">Upload</a>
           </div>
          
@@ -436,7 +438,24 @@
 
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+    $('nav li').hover(
 
+function() {
+
+$('ul',this).stop().slideDown(200);
+
+},
+
+function() {
+
+$('ul',this).stop().slideUp(200);
+
+}
+
+);
+</script>
     <!-- Bootstrap -->
     <script src="assets/js/popper.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
