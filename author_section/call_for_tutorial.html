@@ -8,6 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="TemplateMo" />
+    <script src="https://kit.fontawesome.com/38265dd503.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
       rel="stylesheet"
@@ -24,7 +25,7 @@
     />
 
     <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css" />
-
+<link rel="stylesheet" href="../registration.css">
     <link rel="stylesheet" href="../assets/css/styles.css" />
 
     <!-- <link rel="stylesheet" href="assets/css/templatemo-lava.css" /> -->
@@ -32,17 +33,71 @@
   </head>
 
   <body>
-    <!-- Timeline -->
-    <!-- <div class="time"> -->
-    <div class="stem-wrapper">
-    <!--  <div class="stem"></div>-->
-      <!--<div class="stem-background"></div>-->
-  </div>
+      <style>
+          
+          .main-nav{
+              background: white !important;
+              
+          }
+          i{
+              margin-right: 5px;
+          }
+      </style>
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="../index.html" class="logo" style="color: rgb(255, 255, 255);">
+                            IEEE
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section">
+                                <a href="#welcome" class="menu-item">Home</a>
+                            </li>
+    
+                            <li class="submenu">
+                                <a href="javascript:;">Author Section</a>
+                                <ul>
+                                    <li>
+                                        <a href="../author_section/call_for_papers.html">Call for Papers</a>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                            </li>
+    
+                            <li class="submenu">
+                                <a href="javascript:;">Committee</a>
+                                <ul>
+                                    <li><a href="../committee/oc.html">Organizing</a></li>
+                                    <li>
+                                        <a href="../committee/track_chair.html">Track Chairs</a>
+                                    </li>
+                                </ul>
+                            </li>
+    
+                            <li>
+                                <a href="../travel.html">Travel</a>
+                            </li>
+                        </ul>
+                        <a class="menu-trigger">
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
   
-  <header class="section header">
+  <!-- <header class="section header">
     
     
-      <div class="section-inner">
+      <div class="section-inner"> -->
           
           <!-- <div class="master-head">
               <h1 class="page-title">Call for Papers</h1>
@@ -59,34 +114,13 @@
               
 
         
-          <div class="master-head" >
-               <!-- <h1 class="page-title" style="transform: translateY(-20px);">Tracks </h1> -->
-            <nav>
-                <div class="topnav" id="myTopnav">
-                    <a href="../index.html" class="active">HOME</a>
-                    <a href="#news">ABOUT</a>
-                    <a href="#contact">TIMELINE</a>
-                    <div class="dropdown">
-                      
-                        <button 
-                      
-                      class="dropbtn ">AUTHOR SECTION
-                        <i class="fa fa-caret-down"></i>
-                      </button>
-                      <div class="dropdown-content">
-                        <a href="#">CALL FOR TUTORIAL PROPOSAL</a>
-                        <a href="#">CALL FOR WORKSHOP PROPOSAL</a>
-                        <!-- <a href="#">Link 3</a> -->
-                      </div>
-                    </div>
-                    <a href="#">CONTACT US</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-                  </div>
+          <div class="master-head" style="background-color: #5ABCCB; text-align: center;padding: 40px;height: 60vh;">
+            <!-- ***** Header Area Start ***** -->
             
-            </nav>
+            <!-- ***** Header Area End ***** -->
             
-            <h1 class="page-title" style="padding-top: 5%;">Call for Tutorial Proposal</h1>
-            <p class="page-description">INDICON 2020 will feature pre-conference tutorials addressing fundamental and emerging topics. Tutorials will be scheduled on December 10th, 2020. Tutorials sessions will be in half-day format with slots in the forenoon or afternoon. Tutorial proposals should be emailed to the tutorial chair, Professor M N Hoda at mca.hoda@gmail.com by July 15th, 2020. Accepted tutorials will be notified by August 16th, 2020.</p> 
+            <h1 class="page-title" style="padding-top: 6%;padding-bottom: 3%;">Call for Tutorial Proposal</h1>
+            <p class="page-description" style="max-width: 1000px;margin: 0 auto;font-size: 16px;color: whitesmoke;">INDICON 2020 will feature pre-conference tutorials addressing fundamental and emerging topics. Tutorials will be scheduled on December 10th, 2020. Tutorials sessions will be in half-day format with slots in the forenoon or afternoon. Tutorial proposals should be emailed to the tutorial chair, Professor M N Hoda at mca.hoda@gmail.com by July 15th, 2020. Accepted tutorials will be notified by August 16th, 2020.</p> 
               <!-- <p class="scroll-button" onClick="$('.post-wrapper .post:first-child .stem-overlay .icon').click();">CLICK ME</p>
           </div> -->
         </div> 
@@ -107,15 +141,15 @@
 
 
 <p class="h4"><strong>A tutorial proposal should include the following:</strong></p>
-<ol class="lists" style=" margin-left: 3%;">
-<li style="margin: 10px 0;"> Title</li>
+<ol class="lists" style=" margin-left: 3%;font-size: medium;">
+<li style="margin: 10px 0;"><span><i class="fas fa-circle fa-xs"></i></span> Title</li>
 
-<li style="margin: 10px 0;"> Name(s) of Presenter/Speaker along with affiliations</li>
+<li style="margin: 10px 0;"> <span><i class="fas fa-circle fa-xs"></i></span>Name(s) of Presenter/Speaker along with affiliations</li>
 
-<li style="margin: 10px 0;"> Abstract with motivation ( upto about 300 words) followed by
+<li style="margin: 10px 0;"><span><i class="fas fa-circle fa-xs"></i></span> Abstract with motivation ( upto about 300 words) followed by
 the sequence of presentation topics with sub-topics, etc.</li>
 
-<li style="margin: 10px 0;">   Additional logistic requirements needed from organizers for
+<li style="padding: 10px 0;"> <span><i class="fas fa-circle fa-xs"></i></span>  Additional logistic requirements needed from organizers for
 hands on etc. must be clearly indicated.  Proposers may note that
 material requirements like IoT kits etc. will be charged to the
 participants and a full cost planning of these should be given. The
@@ -123,12 +157,12 @@ proposers themselves must make the arrangements of bringing all
 equipment to the tutorial venue. All materials charged to participants
 must be released to the registered participants.</li>
 
-<li style="margin: 10px 0;">  Additional outline, if needed</li>
+<li style="margin: 10px 0;"> <span><i class="fas fa-circle fa-xs"></i></span> Additional outline, if needed</li>
 
-<li style="margin: 10px 0;">     Presenter/speaker biography especially citing any previous
+<li style="margin: 10px 0;"> <span><i class="fas fa-circle fa-xs"></i></span>   Presenter/speaker biography especially citing any previous
 experience in speaking and training or hosting workshops and tutorials</li>
 
-<li style="margin: 10px 0;">    Links to the presenter/speaker web page</li>
+<li style="margin: 10px 0;"> <span><i class="fas fa-circle fa-xs"></i></span>  Links to the presenter/speaker web page</li>
 </ol>
 
 <br>
@@ -497,55 +531,40 @@ planned for.</strong></p>
             </div>
         </div>
     </footer> -->
+<!-- jQuery -->
+<script src="../assets/js/jquery-2.1.0.min.js"></script>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../assets/js/popper.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- Plugins -->
+<script src="../assets/js/owl-carousel.js"></script>
+<script src="../assets/js/scrollreveal.min.js"></script>
+<script src="../assets/js/waypoints.min.js"></script>
+<script src="../assets/js/jquery.counterup.min.js"></script>
+<script src="../assets/js/imgfix.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-    <script src="//code.jquery.com/jquery.min.js"></script>
+<!-- Global Init -->
+<script src="../assets/js/custom.js"></script>
+
+<!-- Timeline -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<script src="../assets/js/script.js"></script>
 <script>
-    $('nav li').hover(
+    $("nav li").hover(
+        function () {
+            $("ul", this)
+                .stop()
+                .slideDown(200);
+        },
 
-function() {
-
-$('ul',this).stop().slideDown(200);
-
-},
-
-function() {
-
-$('ul',this).stop().slideUp(200);
-
-}
-
-);
+        function () {
+            $("ul", this)
+                .stop()
+                .slideUp(200);
+        }
+    );
 </script>
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script>
-
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
-
-    <!-- Timeline -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
-    <script src="assets/js/script.js"></script>
-
-    <script>
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-        }
-    </script>
   </body>
 </html>
