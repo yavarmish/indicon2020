@@ -37,7 +37,14 @@ body {
 .time h6 {
   font-family: "Comfortaa", cursive;
 }
-
+li::before {
+  content: "• ";
+  color: white; /* or whatever color you prefer */
+}
+li
+{
+  margin: 10px 0;
+}
 /*==========  Sections  ==========*/
 .header {
   text-align: center;
