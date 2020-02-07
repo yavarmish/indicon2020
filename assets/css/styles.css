@@ -267,6 +267,9 @@ body {
 .post-wrapper .post.twitter-icon .stem-overlay .icon {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/22043/twitter-icon.png);
 }
+.post-wrapper .post.med-icon .stem-overlay .icon {
+  background-image: url(/assets/images/micro.png);
+}
 .post-wrapper .post .stem-overlay {
   position: absolute;
   top: 0px;
