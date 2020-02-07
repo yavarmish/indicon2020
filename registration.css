@@ -745,8 +745,47 @@ header
 }
 .listwrp h3 {
   padding-bottom: 20px;
+  padding-left: 30px;
 }
 .cfpwrap {
   background: black;
   height: 30vh;
+}
+.listwrp ul {
+  padding-left: 40px;
+}
+@media screen and (max-width: 650px) {
+  table {
+    font-size: 9px;
+    margin-top: 0 !important;
+  }
+  .cfpwrap h1 {
+    margin-bottom: 0 !important;
+    font-size: 20px;
+  }
+  .details {
+    padding-top: 0;
+  }
+  .listwrp ul {
+    padding-left: 10px !important;
+    margin-right: 15px;
+  }
+  .listwrp h3 {
+    padding-left: 5px !important;
+    margin-right: 15px;
+  }
+  .cfpwrap {
+    /* height: 15vh; */
+  }
+}
+
+@media screen and (max-width: 515px) {
+  table {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 365px) {
+  table {
+    font-size: 6px;
+  }
 }
