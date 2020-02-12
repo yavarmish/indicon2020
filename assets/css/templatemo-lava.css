@@ -1269,7 +1269,11 @@ footer .sub-footer p {
   padding-bottom: 3rem;
   transform: translateY(-100px);
 }
-
+@media screen and (max-width: 720px) {
+  .timeline {
+    transform: translateY(-88px);
+  }
+}
 .timeline:before {
   content: "";
   width: 4px;
