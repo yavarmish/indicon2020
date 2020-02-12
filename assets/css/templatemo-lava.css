@@ -737,7 +737,7 @@ welcome
 .welcome-area .header-text .left-text {
   /* position: relative; */
   align-self: left;
-  margin-top: 250px;
+  margin-top: 220px;
   /* transform: perspective(1px) translateY(-30%) !important; */
 }
 @media screen and (max-width: 991px) {
